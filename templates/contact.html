@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Cozy Bite -> contact</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Dhanush Jami">
+        <meta name="description" content="contact Cozy Bite">
+        <link rel="stylesheet" href="main.css" type="text/css">
+        <link rel="icon" href="icon.webp" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+            <article>
+            <p>Directions</p>
+            <nav>
+                <a href="cobite.html">Main page</a>
+                <br>
+                <a href="menu.html">Our menu</a>
+                <br>
+                <a href="policy.html">Our policies</a>
+            </nav>
+        </article>
+        </header>
+        
+        <main>
+            <hr>
+        <article>
+            <h1>Contact us.</h1>
+            <form action="https://httpbin.org/post" method="post"></form>
+            <legend>Personal info</legend>
+            <fieldset>
+                <label for="fname" >First name:</label>
+                <input type="text" name="fname" id="fname" autocomplete="on" placeholder="John" required autofocus>
+                <br>
+                <label for="lname">Last name:</label>
+                <input type="text" name="lname" id="lname" placeholder="Doe">
+                <br>
+                <label for="number">Your phone number:</label>
+                <input type="tel" pattern="[0-9]{10}" name="number" id="number" placeholder="0123456789">
+                <br>
+                <label for="password">Your password:</label>
+                <input type="password" name="password" id="password" placeholder="your secret">
+                <br>
+                <label for="mail">Your mail:</label>
+                <input type="text" name="mail" id="mail" placeholder="johndoe">
+                <br>
+                <label for="@">type of mail:</label>
+                <select name="@" id="@">
+                    <option value="gmail" selected>@gmail</option>
+                    <option value="email">@email</option>
+                </select>
+                <br>
+                <label for="mtype">mail type</label>
+                <select name="mtype" id="mtype">
+                    <option value=".com" selected>.com</option>
+                    <option value=".in">.in</option>
+                    <option value=".edu">.edu</option>
+                </select>
+
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>send us a note:</legend>
+                <label for="message">Send me ur message:</label>
+                <br>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="type your message"></textarea>
+            </fieldset>
+            <br>
+            <button type="submit">Post</button>
+            <button type="reset">Reset</button>
+        </article>
+        <hr>
+        </main>
+        <footer>
+            <nav>
+                <a href="#">Back to top.</a>
+            </nav>
+        </footer>
+    </body>
+</html>
