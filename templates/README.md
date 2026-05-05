@@ -2,13 +2,8 @@
 
 ## 📌 Overview
 
-This project is part of my internship work. It focuses on [briefly explain what your project does — e.g., web app, AI model, data analysis, etc.].
+This project was developed alongside my learning process to practically understand concepts. Ths project is a static frontend page for a fictional restaurant named Cobite.
 
-## 🚀 Features
-
-* Feature 1 (e.g., user authentication)
-* Feature 2
-* Feature 3
 
 ## 🛠️ Tech Stack
 
